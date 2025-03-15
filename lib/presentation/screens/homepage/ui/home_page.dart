@@ -77,11 +77,19 @@ class Settings extends StatelessWidget {
             ),
           ),
           HeightSpacer(myHeight: kSpacing),
-          const ListTileBldr(title: 'View analytics', icon: Iconsax.chart_1),
+          ListTileBldr(
+            title: 'View analytics',
+            icon: Iconsax.chart_1,
+            btnFun: () {},
+          ),
           HeightSpacer(myHeight: kSpacing / 2),
-          const ListTileBldr(title: 'Passbook', icon: Iconsax.book),
+          ListTileBldr(title: 'Passbook', icon: Iconsax.book, btnFun: () {}),
           HeightSpacer(myHeight: kSpacing / 2),
-          const ListTileBldr(title: 'Add Money', icon: Iconsax.money_3),
+          ListTileBldr(
+            title: 'Add Money',
+            icon: Iconsax.money_3,
+            btnFun: () {},
+          ),
           HeightSpacer(myHeight: kSpacing * 2),
           Align(
             alignment: Alignment.bottomCenter,
